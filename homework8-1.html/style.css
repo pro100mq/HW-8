@@ -1,0 +1,32 @@
+.td:nth-child(odd):hover {
+    border: 5px solid rgb(90, 0, 150);
+}
+.td:nth-child(odd){
+    background-color: blue;
+    border: 10px solid rgb(90, 0, 150);
+}
+.td:nth-child(n+3){
+    background-color: yellow;
+    border: 5px solid rgb(90, 0, 150);
+}
+.td:nth-last-child(2){
+    background-color: rgb(90, 0, 150);
+}
+.td:nth-child(even):hover{
+    border: 5px solid rgb(90, 0, 150);
+}
+.td:hover{
+    color: green;
+}
+.td:not(:last-child){
+    border-radius: 5px;
+}
+.td:not(:first-child){
+    border: 5px solid ;
+}
+.td:not(:nth-last-child(2)){
+    border: 5px solid
+}
+.td:not(:nth-child(even)){
+    border: 5px solid;
+}
